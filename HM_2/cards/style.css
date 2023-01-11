@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.info_cont{
+    border: 1px solid black;
+    background-color: aliceblue;
+    box-sizing: border-box;
+
+    margin: 20px;
+    height: 300px;
+    min-width: 250px;
+    width: 100%;
+    padding: 20px;
+}
+.info_cont > div > p{
+    color: black;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.info_cont > div{
+    text-align: center;
+}
+.info_text{
+    color: darkgray;
+}
+.info_button{
+    text-align: center;
+    margin-top: 70px;
+
+
+}
+.info_button > a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+
+
+
+}
