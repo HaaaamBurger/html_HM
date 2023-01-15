@@ -1,0 +1,46 @@
+.wrapper{
+    display: flex;
+
+}
+.info_block{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    padding: 20px;
+    height: 300px;
+    min-width: 250px;
+    max-width: 250px;
+    margin-right: 20px;
+
+
+}
+.info_text{
+    margin-top: 30px;
+}
+.info_text p:first-child{
+    font-size: 18px;
+    font-weight: 600;
+}
+.info_text p:nth-child(2){
+    color: gray;
+}
+.info_button{
+    margin-top: 50px;
+}
+.info_button a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid black;
+    height: 25px;
+}
+.fa-desktop,.fa-life-ring,.fa-martini-glass{
+    border: 1px solid black;
+
+    color: orange;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
