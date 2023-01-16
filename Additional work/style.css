@@ -8,12 +8,13 @@ body{
 .wrapper {
 
 }
+.purple_theme{
+    color: #7454de;
+}
 .main_page{
-    width: 60%;
-    background-color: #3e73c4;
-    height: 500px;
-
-
+    width: 50%;
+    background-color: #061c31;
+    height: 350px;
 
     position: relative;
 }
@@ -30,7 +31,7 @@ body{
     background-color: #ddd9e8;
 }
 .nav{
-    width: 60%;
+    width: 40%;
 
 }
 .nav_blocks{
@@ -54,3 +55,48 @@ body{
 }
 
 /*--------------NAV-BLOCK--------------*/
+/*--------------MAIN-BLOCK--------------*/
+
+.main_page{
+
+}
+.info_text_main{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+    color: white;
+
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    margin-left: 50px;
+}
+.p_wrap{
+    box-sizing: border-box;
+
+    height: auto;
+    width: 250px;
+}
+.info_text_main a{
+    display: block;
+
+    background-color: #7454de;
+    border-radius: 13px;
+
+    height: 27px;
+    width: 110px;
+}
+.info_text_main h3{
+    font-size: 25px;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+/*--------------MAIN-BLOCK--------------*/
