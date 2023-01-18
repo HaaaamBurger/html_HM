@@ -3,12 +3,13 @@ body{
 }
 .pos_center{
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
 .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .purple_theme{
     color: #7454de;
@@ -17,20 +18,16 @@ body{
     min-width: 50%;
     background-color: #061c31;
     height: 350px;
-
     position: relative;
 }
 /*--------------NAV-BLOCK--------------*/
 .pre_nav{
     z-index: 4;
     position: fixed;
-
     height: 80px;
     width: 100%;
-
     display: flex;
     align-items: center;
-
     background-color: #ddd9e8;
 }
 .nav{
@@ -45,7 +42,6 @@ body{
 .nav_logo{
     height: 35px;
     min-width: 100px;
-
     background-color: #061c31;
     border-radius: 7px;
 }
@@ -58,9 +54,7 @@ body{
 .info_text_main{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-
     color: white;
-
     position: absolute;
     bottom: 45px;
     left: 0;
@@ -68,32 +62,26 @@ body{
 }
 .p_wrap{
     box-sizing: border-box;
-
     height: auto;
     width: 250px;
 }
 .info_text_main a{
     display: block;
-
     background-color: #7454de;
     border-radius: 13px;
-
     height: 27px;
     width: 110px;
 }
 .info_text_main h3{
     font-size: 25px;
     margin: 0;
-
 }
 /*--------------MAIN-BLOCK--------------*/
 /*--------------MIDDLE-BLOCK--------------*/
 .middle_page{
     padding: 50px;
     box-sizing: border-box;
-
     background-color: #ddd9e8;
-
     width: 50%;
 }
 .column_wrapper{
@@ -104,7 +92,6 @@ body{
 .news_crate{
     background-color: #7454de;
     border-radius: 8px;
-
     width: 200px;
     height: 80px;
 }
@@ -135,13 +122,10 @@ body{
 .add_info_block{
     box-sizing: border-box;
     background-color: #7454de;
-
     margin-right: 20px;
     border-radius: 8px;
     height: 50px;
     min-width: 50px;
-
-
 }
 .add_info_block_helper p{
     margin: 0;
@@ -166,3 +150,30 @@ body{
     overflow: hidden;
 }
 /*--------------MIDDLE-BLOCK--------------*/
+/*--------------PRE-END-BLOCK--------------*/
+.pre_end_block{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ddd9e8;
+    width: 50%;
+}
+.fst_collage_block,.snd_collage_block{
+    display: flex;
+}
+.news_collage{
+    background-color: #7454de;
+    min-width: 250px;
+    height: 110px;
+    margin: 10px;
+}
+.addition_collage{
+    background-color: #061c31;
+    width: 125px;
+    height: 110px;
+    margin: 10px;
+}
+/*--------------PRE-END-BLOCK--------------*/
