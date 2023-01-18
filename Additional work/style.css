@@ -10,12 +10,15 @@ body{
     flex-direction: column;
     align-items: center;
 
+
 }
 .purple_theme{
     color: #7454de;
 }
 .main_page{
-    min-width: 50%;
+    overflow: hidden;
+    min-width: 500px;
+    width: 50%;
     background-color: #061c31;
     height: 350px;
     position: relative;
@@ -31,7 +34,7 @@ body{
     background-color: #ddd9e8;
 }
 .nav{
-    min-width: 40%;
+    width: 40%;
 }
 .nav_blocks{
     width: 100%;
@@ -41,7 +44,7 @@ body{
 }
 .nav_logo{
     height: 35px;
-    min-width: 100px;
+    width: 100px;
     background-color: #061c31;
     border-radius: 7px;
 }
@@ -79,6 +82,8 @@ body{
 /*--------------MAIN-BLOCK--------------*/
 /*--------------MIDDLE-BLOCK--------------*/
 .middle_page{
+    overflow: hidden;
+    min-width: 500px;
     padding: 50px;
     box-sizing: border-box;
     background-color: #ddd9e8;
@@ -153,6 +158,7 @@ body{
 /*--------------PRE-END-BLOCK--------------*/
 .pre_end_block{
     overflow: hidden;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,15 +170,18 @@ body{
 .fst_collage_block,.snd_collage_block{
     display: flex;
 }
+.collage_main_block{
+
+}
 .news_collage{
     background-color: #7454de;
-    min-width: 250px;
+    width: 350px;
     height: 110px;
     margin: 10px;
 }
 .addition_collage{
     background-color: #061c31;
-    width: 125px;
+    width: 225px;
     height: 110px;
     margin: 10px;
 }
