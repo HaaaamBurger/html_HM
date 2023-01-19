@@ -283,4 +283,40 @@ body{
     height: 4px;
     border-radius: 4px;
 }
+.scd_part{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.scd_part p{
+    background-color: #7454de;
+    border-radius: 4px;
+    height: 4px;
+    margin: 0;
+}
+.p_b_one p:first-child,.p_b_two p:first-child,.p_b_three p:first-child{
+    background-color: #7454de;
+    border-radius: 4px;
+    width: 40px;
+    height: 4px;
+    margin: 0 0 10px 0;
+}
+.scd_part p:nth-child(2),.scd_part p:nth-child(3),.scd_part p:nth-child(4){
+    margin-bottom: 5px;
+}
+.p_b_one p:nth-child(2),.p_b_one p:nth-child(4),.p_b_two p:nth-child(3),.p_b_three p:nth-child(5){
+    width: 30px;
+}
+.p_b_one p:nth-child(3),.p_b_one p:nth-child(5),.p_b_two p:nth-child(2),.p_b_three p:nth-child(4){
+    width: 20px;
+}
+.p_b_two p:nth-child(4),.p_b_two p:nth-child(5),.p_b_three p:nth-child(2),.p_b_three p:nth-child(3){
+    width: 25px;
+}
+.p_b_three p:nth-child(5)
+
 /*--------------END-BLOCK--------------*/
