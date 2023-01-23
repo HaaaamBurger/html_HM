@@ -83,7 +83,53 @@ body,p{
 .types_of_baths,.related_products{
     height: 45vh;
 }
-
+.locator_store{
+    background-color: #e35075;
+    height: 10vh;
+}
+.tool{
+    background-color: #790920;
+    height: 10vh;
+}
+.additional_blocks{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .score_locator,.tools{
+        display: none;
+    }
+    .additional_blocks{
+        display: flex;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .nav{
+        height: 10vh;
+        width: 100vw;
+        background-color: #863e4c;
+    }
+    .bath_section_intro{
+        width: 75vw;
+    }
+    .ad{
+        width: 25vw;
+    }
+    .bottom_content{
+        flex-direction: column;
+    }
+    .types_of_baths{
+        width: 100vw;
+        background-color: #a2223d;
+    }
+    .related_products{
+        width: 100vw;
+        height: 20vh;
+    }
+    .tool,.locator_store{
+        width: 50vw;
+    }
+}
 /*-----------------CONTENT-----------------*/
 /*-----------------FOOTER-----------------*/
 .footer{
@@ -94,6 +140,4 @@ body,p{
     width: 100vw;
     height: 20vh;
 }
-
-
 /*-----------------FOOTER-----------------*/
