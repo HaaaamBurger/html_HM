@@ -1,0 +1,99 @@
+body,p{
+    margin: 0;
+}
+.main_wrapper{
+    background-color: #958dee;
+    width: 100vw;
+    height: 100vh;
+}
+.main_set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 1.5em;
+}
+.logo,.bath_section_intro,.related_products{
+    background-color: crimson;
+}
+.header,.nav{
+    background-color: #ab102f;
+}
+.ad,.types_of_baths{
+    background-color: #ee4568;
+}
+.score_locator{
+    background-color: #dc1e3f;
+}
+.tools{
+    background-color: #b22b47;
+}
+/*-------------------NAV-------------------*/
+.nav_main{
+    display: flex;
+    width: 100vw;
+}
+.logo,.header{
+    height: 10vh;
+}
+.logo{
+    width: 20vw;
+}
+.header{
+    width: 80vw;
+}
+/*-------------------NAV-------------------*/
+/*-----------------CONTENT-----------------*/
+.main_content{
+    width: 100vw;
+}
+.content{
+    width: 100vw;
+    display: flex;
+}
+
+.nav_lefty{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    width: 20vw;
+    height: 50vh;
+}
+.nav_lefty_bottom{
+    display: flex;
+    flex-direction: column;
+}
+.score_locator,.tools{
+    width: 20vw;
+    height: 10vh;
+}
+.topic_content,.bottom_content{
+    display: flex;
+}
+.bath_section_intro,.types_of_baths{
+    width: 60vw;
+}
+.ad,.related_products{
+    width: 20vw;
+}
+.bath_section_intro,.ad{
+    height: 25vh;
+}
+.types_of_baths,.related_products{
+    height: 45vh;
+}
+
+/*-----------------CONTENT-----------------*/
+/*-----------------FOOTER-----------------*/
+.footer{
+    width: 100vw;
+}
+.main_footer{
+    background-color: #d3012a;
+    width: 100vw;
+    height: 20vh;
+}
+
+
+/*-----------------FOOTER-----------------*/
